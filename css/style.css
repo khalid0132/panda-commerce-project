@@ -1,0 +1,19 @@
+.categories img{
+    width: 100px;
+}
+.panda-bgcolor .carousel-item{
+    background: #fceae8;
+    border-radius: 20px;
+}
+.subscribe{
+    height: 300px; 
+    background:#fceae8;
+    border-radius: 20px;
+}
+.fixed{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+}

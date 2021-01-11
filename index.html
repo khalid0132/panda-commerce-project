@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="fixed navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -22,10 +23,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Shoes</a>
-                        <a class="nav-link" href="#">Backpack</a>
-                        <a class="nav-link" href="#">Subscribe</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" href="#shoes">Shoes</a>
+                        <a class="nav-link" href="#backpack">Backpack</a>
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
 
                     </div>
                 </div>
@@ -33,9 +34,8 @@
         </nav>
     </header>
     <main class="container">
-        <section class="mt-5 mb-5">
-            <div style="background: rgba(255, 182, 193, 0.3);" id="carouselExampleControls"
-                class=" rounded carousel slide" data-bs-ride="carousel">
+        <section id="home" class="mt-5 mb-5">
+            <div id="carouselExampleControls" class=" panda-bgcolor rounded carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row d-flex align-items-center m-5">
@@ -94,28 +94,31 @@
         <section class=" ">
             <div class="row gx-5">
                 <div class="col">
-                    <div class="p-3 rounded bg-primary mt-5 mb-5 d-flex justify-content-around align-items-center">
+                    <div
+                        class="categories p-3 rounded bg-primary mt-5 mb-5 d-flex justify-content-around align-items-center">
                         <h1 class="text-white">Watch</h1>
-                        <img class="w-25" src="images/categories/watch.png" alt="">
+                        <img src="images/categories/watch.png" alt="">
                     </div>
                 </div>
                 <div class="col">
-                    <div class="p-3 rounded bg-danger mt-5 mb-5 d-flex justify-content-around align-items-center">
+                    <div
+                        class="categories p-3 rounded bg-danger mt-5 mb-5 d-flex justify-content-around align-items-center">
                         <h1 class="text-white">Bag</h1>
-                        <img class="w-25" src="images/categories/bag.png" alt="">
+                        <img src="images/categories/bag.png" alt="">
                     </div>
                 </div>
                 <div class="col">
-                    <div class="p-3 rounded bg-success mt-5 mb-5 d-flex justify-content-around align-items-center">
+                    <div
+                        class="categories p-3 rounded bg-success mt-5 mb-5 d-flex justify-content-around align-items-center">
                         <h1 class="text-white">Shoe</h1>
-                        <img class="w-25" src="images/categories/shoes.png" alt="">
+                        <img src="images/categories/shoes.png" alt="">
                     </div>
                 </div>
 
             </div>
         </section>
         <!-- Shoe section -->
-        <section class="mb-5">
+        <section id="shoes" class="mb-5">
             <h3 class="fw-bold">Shoes</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -170,7 +173,7 @@
         </section>
 
         <!-- Backpack  -->
-        <section class="mb-5">
+        <section id="backpack" class="mb-5">
             <h3 class="fw-bold">Backpack</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -223,8 +226,7 @@
                 </div>
             </div>
         </section>
-        <section style="height: 300px; background: rgba(255, 182, 193, 0.452);"
-            class="rounded mt-5 mb-5 d-flex justify-content-center align-items-center">
+        <section id="subscribe" class="subscribe mt-5 mb-5 d-flex justify-content-center align-items-center">
             <form>
                 <fieldset>
                     <legend>LET'S STAY IN TOUCH </legend>
@@ -240,7 +242,7 @@
 
     </main>
     <footer class="text-center mt-5">
-        <small>©2025. Panda Commerce. All rights reserved. Stockholm, Sweden.</small>
+        <small>©2021. Khalid's Web World. All rights reserved. Stockholm, Sweden.</small>
     </footer>
 
 
